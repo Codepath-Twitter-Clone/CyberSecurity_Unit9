@@ -23,26 +23,14 @@ Description:
 
 <img src="blue-vuln1.gif">
 
-Vulnerability #2: __________________
-
-Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Cross-Site Scripting
 
-Description:
+Description: Go to /public/contact.php. File the form with script injection. The input will be inline html in /public/staff/feedback/index.php. This creates vulnerability of executing malicious code.
 
-<img src="green-vuln1.gif">
-
-Vulnerability #2: __________________
-
-Description:
-
-<img src="green-vuln2.gif">
-
+<img src="https://github.com/Codepath-Twitter-Clone/CyberSecurity_Unit9/blob/main/g1.gif">
 
 ## Red
 
@@ -52,11 +40,3 @@ Description:
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: __________________
-
-Description:
-
-<img src="red-vuln2.gif">
-
-
-## Notes
