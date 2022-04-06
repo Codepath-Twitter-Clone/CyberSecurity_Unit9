@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: * Session Hijacking/Fixation
 
-Description:
+Description: The internal session management tool is exposed to the public. Hackers can change login-in session id to any value.
 
-<img src="blue-vuln1.gif">
+<img src="https://github.com/Codepath-Twitter-Clone/CyberSecurity_Unit9/blob/main/b1.gif">
 
 
 ## Green
@@ -34,9 +34,9 @@ Description: Go to /public/contact.php. File the form with script injection. The
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description: gif is self-explanatory. 
 
-<img src="red-vuln1.gif">
+<img src="https://github.com/Codepath-Twitter-Clone/CyberSecurity_Unit9/blob/main/r1.gif">
 
